@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EverGrowth Strategies LLC</title>
+    <style>
+        /* Color Palette */
+        :root {
+            --primary-color: #1ABC9C; /* Teal */
+            --secondary-color: #2C3E50; /* Navy */
+            --accent-color: #FFD700; /* Gold */
+            --background-color: #F8F9FA; /* Light Gray */
+            --text-color: #333333; /* Dark Gray */
+        }
+
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background: var(--secondary-color);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        nav {
+            background: var(--primary-color);
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-bottom: 4px solid var(--primary-color);
+            padding-bottom: 10px;
+            width: fit-content;
+            font-size: 26px;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-images {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .profile-images img {
+            width: 250px;
+            height: auto;
+            object-fit: contain;
+            border-radius: 15px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .social-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .social-links a {
+            color: var(--primary-color);
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .social-links a:hover {
+            color: var(--accent-color);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: var(--secondary-color);
+            color: white;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    EverGrowth Strategies LLC
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#clients">Clients</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <div class="profile-images">
+        <img src="Rory Hot.jpg" alt="Professional Headshot">
+        <img src="EverGrowth Logo.jpg" alt="EverGrowth Strategies Logo">
+        <img src="Christmas Rory.jpg" alt="Holiday Business Meeting">
+    </div>
+
+    <div class="social-links">
+        <h2>Connect With Us</h2>
+        <a href="https://linkedin.com/in/rorybernier" target="_blank">LinkedIn</a> |
+        <a href="https://x.com/RoryCGO" target="_blank">X (Twitter)</a>
+    </div>
+
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>EverGrowth Strategies LLC helps businesses scale revenue, forge strategic partnerships, and optimize business growth.
+           We specialize in business development, AI-driven solutions, cybersecurity, and marketing strategies—helping companies unlock new opportunities and thrive.</p>
+    </div>
+
+    <div class="section" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>📈 Business Growth & Strategic Partnerships</li>
+            <li>🤖 AI & Automation Strategy</li>
+            <li>📢 Marketing & Social Media Consulting</li>
+            <li>🔐 Cybersecurity & Information Security</li>
+            <li>📊 Accounting & Financial Strategy</li>
+            <li>🌐 Networking & Business Connections</li>
+        </ul>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="mailto:evergrowthstrategies@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    &copy; 2025 EverGrowth Strategies LLC. All Rights Reserved.
+</footer>
+
+</body>
+</html>
